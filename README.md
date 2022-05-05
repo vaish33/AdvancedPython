@@ -23,10 +23,11 @@ class Product:
   ```
 classes are also objects. So, we can point a variable to a class:
 
->>> my_class = Product
+``` 
+my_class = Product
 We now have a variable my_class pointing to the Product class:
 
->>> my_class
+my_class
 <class 'product.Product'>
 And in fact, Product is also just a variable that points to the Product class:
 
@@ -34,18 +35,21 @@ And in fact, Product is also just a variable that points to the Product class:
 <class 'product.Product'>
 So anything that we could do with Product, we could do with my_class
 
+```
 Modules are objects too.
 
 So we can point variables to module objects:
-
+```
 >>> import math
 >>> silly_math = math
+```
 We've imported the math module and pointed the silly_math variable to the math module object:
 
- modules are mutable objects, meaning you can add attributes to them and you can update attributes on them.
+modules are mutable objects, meaning you can add attributes to them and you can update attributes on them.
  
- Functions are objects too
- We have a function called greet :
+Functions are objects too
+```
+We have a function called greet :
 
 >>> def greet(name="world"):
 ...     """Greet a user, or the whole world."""
@@ -78,4 +82,6 @@ There is a __defaults__ attribute that Python adds to every function. This attri
 
 >>> greet.__defaults__
 ('world',)
+
+```
  

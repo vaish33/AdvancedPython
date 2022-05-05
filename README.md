@@ -81,7 +81,7 @@ Just like modules, classes, and class instances, functions have attributes.
 There is a __defaults__ attribute that Python adds to every function. This attribute represents the default values for all arguments that that function might accept:
 
 >>> greet.__defaults__
-('world',)
+('hello world',)
 
 ```
  

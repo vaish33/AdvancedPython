@@ -12,7 +12,7 @@ __Creational Patterns__:
 |:-------:| ----------- |
 | [abstract_factory](AbstractFactoryMethod.py)| use a generic function with specific factories |
 | [borg]| a singleton with shared-state among instances |
-| [builder] (BuilderPattern.py)| instead of using multiple constructors, builder object receives parameters and returns constructed objects |
+| [builder](BuilderPattern.py)| instead of using multiple constructors, builder object receives parameters and returns constructed objects |
 | [factory](Factory.py) | delegate a specialized function/method to create instances |
 | [lazy_evaluation]| lazily-evaluated property pattern in Python |
 | [pool] | preinstantiate and maintain a group of instances of the same type |

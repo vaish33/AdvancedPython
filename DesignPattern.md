@@ -23,10 +23,10 @@ __Structural Patterns__:
 | Pattern | Description |
 |:-------:| ----------- |
 | [3-tier]| data<->business logic<->presentation separation (strict relationships) |
-| [adapter] | adapt one interface to another using a white-list |
-| [bridge]| a client-provider middleman to soften interface changes |
+| [adapter](Adapter.py) | adapt one interface to another using a white-list |
+| [bridge](Bridge.py)| a client-provider middleman to soften interface changes |
 | [composite] | lets clients treat individual objects and compositions uniformly |
-| [decorator] | wrap functionality with other functionality in order to affect outputs |
+| [decorator](DecoratorPattern.py) | wrap functionality with other functionality in order to affect outputs |
 | [facade] | use one class as an API to a number of others |
 | [flyweight] | transparently reuse existing instances of objects with similar/identical state |
 | [front_controller] | single handler requests coming to the application |
